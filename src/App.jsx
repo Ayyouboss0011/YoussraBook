@@ -30,6 +30,10 @@ import React from 'react';
             animationDuration={400}
             showSwipeHint
             uncutPages
+            pageBackground="#f0f0f0"
+            width={1200}
+            height={800}
+            doublePage={true}
           >
             {pages.map((page, index) => (
               <article key={index}>
